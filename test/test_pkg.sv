@@ -1,0 +1,20 @@
+package test_pkg;
+	import uvm_pkg::*;
+	`include"uvm_macros.svh"
+	`include"write_xtn.sv"
+	`include"w_seqs.sv"
+	`include"w_agent_config.sv"
+	`include"r_agent_config.sv"
+	`include"env_config.sv"
+	`include"w_sequencer.sv"
+	`include"w_driver.sv"
+	`include"w_monitor.sv"
+	`include"w_agent.sv"
+	`include"r_monitor.sv"
+	`include"r_agent.sv"
+	`include"v_sequencer.sv"
+	`include"v_seqs.sv"
+	`include"scoreboard.sv"
+	`include"env.sv"
+	`include"vtest_lib.sv"
+endpackage	
